@@ -1,1 +1,0 @@
-initSidebarItems({"trait":[["Randomizable","Types that can be safely initialized by setting their memory to a random value."]]});
