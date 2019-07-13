@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["Zeroable","Types that can be safely initialized by setting their memory to all zeroes."]]});

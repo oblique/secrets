@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["ConstantEq","A marker trait for types that can be compared for equality bitwise in constant time."]]});
