@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["traits","Marker traits to allow types to be contained as secrets."]],"struct":[["Secret","A type for protecting secrets allocated on the stack."],["SecretBox","A type for protecting secrets allocated on the heap."],["SecretVec","A type for protecting secrets allocated on the heap."]]});
+initSidebarItems({"mod":[["secret","Container for `Secret`."],["secret_box","Container for `SecretBox`."],["secret_vec","Container for `SecretVec`."],["traits","Marker traits to allow types to be contained as secrets."]]});
