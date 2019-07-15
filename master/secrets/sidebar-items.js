@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["secret","Container for `Secret`."],["secret_box","Container for `SecretBox`."],["secret_vec","Container for `SecretVec`."],["traits","Marker traits to allow types to be contained as secrets."]]});
