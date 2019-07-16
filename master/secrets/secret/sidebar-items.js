@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RefMut","A mutable [`Deref`]-wrapper around a [`Secret`]'s internal contents that intercepts calls like [`Clone::clone`] and [`Debug::fmt`] that are likely to result in the inadvertent disclosure of secret data."],["Secret","A type for protecting secrets allocated on the stack."]]});
