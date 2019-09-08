@@ -72,7 +72,10 @@ pub(crate) fn init() -> bool {
 
             // in non-development builds, ensure that core dumps are
             // disabled
-            if cfg!(any(profile = "release", profile = "coverage")) {
+            #[cfg(unix)]
+            #[cfg(any(profile = "release", profile = "coverage"))]
+            #[cfg(not(feature = "allow-coredumps"))]
+            {
                 failure |= libc::setrlimit(libc::RLIMIT_CORE, &libc::rlimit {
                     rlim_cur: 0,
                     rlim_max: 0,
